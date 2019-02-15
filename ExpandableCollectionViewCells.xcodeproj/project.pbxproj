@@ -12,6 +12,8 @@
 		068098BA2214E73200A86D46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 068098B82214E73200A86D46 /* Main.storyboard */; };
 		068098BC2214E73300A86D46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 068098BB2214E73300A86D46 /* Assets.xcassets */; };
 		068098BF2214E73300A86D46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 068098BD2214E73300A86D46 /* LaunchScreen.storyboard */; };
+		068098C72214E75E00A86D46 /* CVStackExpand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068098C62214E75E00A86D46 /* CVStackExpand.swift */; };
+		068098C92214E7D100A86D46 /* CVStackExpand.xib in Resources */ = {isa = PBXBuildFile; fileRef = 068098C82214E7D100A86D46 /* CVStackExpand.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		068098BB2214E73300A86D46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		068098BE2214E73300A86D46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		068098C02214E73300A86D46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		068098C62214E75E00A86D46 /* CVStackExpand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVStackExpand.swift; sourceTree = "<group>"; };
+		068098C82214E7D100A86D46 /* CVStackExpand.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CVStackExpand.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				068098B42214E73200A86D46 /* AppDelegate.swift */,
 				068098B62214E73200A86D46 /* ViewController.swift */,
+				068098C62214E75E00A86D46 /* CVStackExpand.swift */,
+				068098C82214E7D100A86D46 /* CVStackExpand.xib */,
 				068098B82214E73200A86D46 /* Main.storyboard */,
 				068098BB2214E73300A86D46 /* Assets.xcassets */,
 				068098BD2214E73300A86D46 /* LaunchScreen.storyboard */,
@@ -123,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				068098BF2214E73300A86D46 /* LaunchScreen.storyboard in Resources */,
+				068098C92214E7D100A86D46 /* CVStackExpand.xib in Resources */,
 				068098BC2214E73300A86D46 /* Assets.xcassets in Resources */,
 				068098BA2214E73200A86D46 /* Main.storyboard in Resources */,
 			);
@@ -136,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				068098B72214E73200A86D46 /* ViewController.swift in Sources */,
+				068098C72214E75E00A86D46 /* CVStackExpand.swift in Sources */,
 				068098B52214E73200A86D46 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
