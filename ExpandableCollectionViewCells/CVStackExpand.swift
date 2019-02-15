@@ -111,8 +111,6 @@ class CVStackExpand: UICollectionViewCell
     
     @objc private func onAddBtPress()
     {
-        insertRow()
-        updateStackSize()
         if let indexPath = indexPath
         {
             delegate?.cvAddedRowAndNeedsToBeReloaded(at: indexPath)
